@@ -1,0 +1,42 @@
+.describe{
+    width: 646px;
+    /* border: 1px solid; */
+    
+}
+.text{
+    font-family: 'Red Rose';
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 78.4px;
+}
+.p1tag{
+    font-family: 'Red Rose';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin: 2.5em 0;
+}
+.search{
+    /* border: 1px solid; */
+    width: 616px;
+}
+.input1{
+background: rgba(247, 247, 247, 0.1);
+border: 1px solid #A3A3A3;
+border-radius: 8px 0px 0px 8px;
+padding: 1.5em 12.5em 1.5em 1.5em;
+}
+.btn2{
+  padding: 1.5em 7.7em;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  outline: none;
+  font-family: 'Red Rose';
+font-weight: 400;
+font-size: 13.5px;
+/* text-align: center; */
+color: #FFFFFF;
+
+
+}
