@@ -35,8 +35,32 @@ padding: 1.5em 12.5em 1.5em 1.5em;
   font-family: 'Red Rose';
 font-weight: 400;
 font-size: 13.5px;
-/* text-align: center; */
 color: #FFFFFF;
-
-
 }
+.img-layout{
+    width: 490px;
+    /* border: 1px solid; */
+    margin-left: 8em;
+    display: flex;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+    margin-top: 6em;
+  }
+  .img1{
+    margin: 5px 0;
+  }
+  .div2{
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+    margin-left:10px;
+  }
+  .mid-footer{
+    display: flex;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    justify-content: space-around;
+    margin-top: 3.5em;
+  }
