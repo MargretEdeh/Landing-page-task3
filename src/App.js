@@ -1,18 +1,20 @@
 import React from 'react'
+import { Route ,Routes } from 'react-router-dom';
 import './App.css';
 import Heading from './components/Heading';
-import Body from './components/Body';
-import MidFooter from './components/MidFooter';
-import PageTwo from './components/PageTwo';
+import Home from './Home';
+import Place from './components/Place';
+
 
 
 export default function App() {
   return (
     <div className='App'>
   <Heading/>
-  <Body/>
-  <MidFooter/>
-  <PageTwo/>
+ <Routes>
+<Route path='/' element={<Home/>}/>
+<Route path='/place' element={<Place/>}/>
+ </Routes>
       
     </div>
   )

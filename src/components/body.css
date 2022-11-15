@@ -49,6 +49,9 @@ color: #FFFFFF;
     width: 234px;
     margin-top: 6em;
   }
+  .img11{
+    margin: 5px 0;
+  }
   .img1{
     margin: 5px 0;
   }
@@ -60,7 +63,49 @@ color: #FFFFFF;
   }
   .mid-footer{
     display: flex;
+    width: 100%;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     justify-content: space-around;
     margin-top: 3.5em;
+  }
+  @media screen and (max-width: 500px){
+    .section{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      margin-left: 1em;
+      margin-top: 2em;
+      /* align-items: center; */
+    }
+    .describe{
+      width: 400px;
+    }
+    .text{
+      font-size: 40px;
+      text-align: start;
+      line-height: normal;
+    }
+    .p1tag{
+      font-style: italic;
+      margin-top: 1em;
+    }
+    .search{
+      width: 400px;
+      display: flex;
+    }
+    .input1{
+      padding: 15px;
+    }
+    .btn2{
+      padding: 15px;
+    }
+    .img-layout{
+      margin-left: 1em;
+    }
+    .div1 ,.div2{
+      width: 180px;
+    }
+    .img11{
+      width: 100px;
+    }
   }

@@ -8,9 +8,9 @@ export default function MidFooter() {
   return (
     <div>
        <div className='mid-footer'>
-     <img  className='img1' src={group2} alt='img'/>
-     <img  className='img1' src={group} alt='img'/>
-     <img  className='img1' src={group3} alt='img'/>
+     <img  className='img11' src={group2} alt='img'/>
+     <img  className='img11' src={group} alt='img'/>
+     <img  className='img11' src={group3} alt='img'/>
 
      </div>
     </div>

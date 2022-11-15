@@ -14,7 +14,7 @@ code {
 .header{
   margin: 2.6em 5.5em;
   /* border: 1px solid; */
-  width: auto;
+  width: 100%;
   display: flex;
 
 }
@@ -57,4 +57,17 @@ code {
   color: #A02279;
   font-weight: 700;
   line-height: 140%;
+}
+@media screen and (max-width:500px){
+  .links{
+    display:  none;
+  }
+  .btn1{
+    display: none;
+  }
+  .header{
+    margin:3em 1.5em ;
+  }
+
+
 }
