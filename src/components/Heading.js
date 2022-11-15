@@ -1,6 +1,7 @@
 import React , {useState} from 'react'
 import metanum from './metanum.svg'
 import house from './house.svg'
+import Modal from './Modal'
 import './place.css'
 import { IoMdClose } from "react-icons/io";
 import { NavLink } from 'react-router-dom'
@@ -28,14 +29,17 @@ export default function Heading() {
        
         <div className='links' >
             <ul className='ul-links'>
-                <li><NavLink className='nav-link'> Home</NavLink> </li>
+                <li><NavLink to='/' end className='nav-link'> Home</NavLink> </li>
                 <li> <NavLink to='/place' className='nav-link'>Place to Stay</NavLink></li>
                 <li> <NavLink className='nav-link'>NFTs</NavLink></li>
                 <li> <NavLink className='nav-link'>Community</NavLink></li>
             </ul>
         </div>
     
-        <button  className='btn1'> Connect wallet</button>
+        <button onClick={showModal} className='btn1'> Connect wallet</button>
+        {modal && 
+        <Modal showModal={showModal} />
+        }
         {menu ? Cancel: MenuTag}
          {menu && 
          <MobileMenu toggle={toggle} />
