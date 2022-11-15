@@ -29,7 +29,7 @@ export default function Heading() {
        
         <div className='links' >
             <ul className='ul-links'>
-                <li><NavLink to='/' end className='nav-link'> Home</NavLink> </li>
+                <li><NavLink  to='/' end className='nav-link'> Home</NavLink> </li>
                 <li> <NavLink to='/place' className='nav-link'>Place to Stay</NavLink></li>
                 <li> <NavLink className='nav-link'>NFTs</NavLink></li>
                 <li> <NavLink className='nav-link'>Community</NavLink></li>
@@ -42,7 +42,7 @@ export default function Heading() {
         }
         {menu ? Cancel: MenuTag}
          {menu && 
-         <MobileMenu toggle={toggle} />
+         <MobileMenu  toggle={toggle} showModal={showModal} />
 }
        
     </div>
