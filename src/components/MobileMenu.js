@@ -18,9 +18,8 @@ export default function MobileMenu({toggle ,showModal}) {
      <li className='li1' > <NavLink onClick={toggle} to='/place' className='nav-link'>Place to Stay</NavLink></li>
      <li className='li1' > <NavLink className='nav-link'>NFTs</NavLink></li>
       <li className='li1' > <NavLink className='nav-link'>Community</NavLink></li>
-      <li>
+      <li  className='li1'>
       <button  onClick={showModal} className='btn1'> Connect wallet</button>
-
       </li>
       </ul>
 
