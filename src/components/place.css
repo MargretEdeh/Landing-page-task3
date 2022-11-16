@@ -41,7 +41,7 @@ justify-content: center;
     background-color:white;
     border-radius: 8px;
     height: 300px;
-    margin:10em 28em;
+    margin:10em auto;
     padding: 10px;
 }
 .top{
