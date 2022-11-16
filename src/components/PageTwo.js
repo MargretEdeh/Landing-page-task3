@@ -15,16 +15,17 @@ export default function PageTwo() {
   return (
     <div>
         <h1 className='heading2'>Inspiration for your next adventure</h1>
-        <div className='img-section'>
-            <ImgCard img={img1}/>
+        <div className='img-sec'>
+         <div className='sec1' >  <ImgCard img={img1}/>
             <ImgCard img={pics2}/>
             <ImgCard img={pics3}/>
-            <ImgCard img={pics4}/>
+            <ImgCard img={pics4}/> </div>
+<div className='sec1'>
             <ImgCard img={pics5}/>
             <ImgCard img={pics6}/>
             <ImgCard img={pics7}/>
             <ImgCard img={pics8}/>
-
+</div>
         </div>
     </div>
   )

@@ -78,16 +78,23 @@ color: #FFFFFF;
       /* align-items: center; */
     }
     .describe{
-      width: 400px;
+      width: 380px;
     }
     .text{
-      font-size: 40px;
+      font-size: 35px;
       text-align: start;
       line-height: normal;
+      text-align: center;
+      margin-right: 10px;
     }
     .p1tag{
       font-style: italic;
+      line-height: normal;
       margin-top: 1em;
+      margin-right: 17px;
+      font-size: 15px;
+      text-align: start;
+
     }
     .search{
       width: 400px;
@@ -100,7 +107,7 @@ color: #FFFFFF;
       padding: 15px;
     }
     .img-layout{
-      margin-left: 1em;
+      margin-left: 4px;
     }
     .div1 ,.div2{
       width: 180px;
