@@ -22,6 +22,7 @@ export default function Heading() {
   const Cancel =  <IoMdClose onClick={toggle} className='menuu2' /> 
   return (
     <div className='header'>
+      <div className='header2'>
     <div>
     <img src={house} alt='logo'/>
         <img src={metanum} alt='logo'/>
@@ -36,15 +37,16 @@ export default function Heading() {
             </ul>
         </div>
     
-        <button onClick={showModal} className='btn1'> Connect wallet</button>
-        {modal && 
-        <Modal showModal={showModal} />
-        }
+       
         {menu ? Cancel: MenuTag}
          {menu && 
          <MobileMenu  toggle={toggle} showModal={showModal} />
 }
-       
+       </div>
+        <button onClick={showModal} className='btn1'> Connect wallet</button>
+        {modal && 
+        <Modal showModal={showModal} />
+        }
     </div>
   )
 }
