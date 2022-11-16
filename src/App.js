@@ -10,12 +10,13 @@ import Place from './components/Place';
 export default function App() {
   return (
     <div className='App'>
+      <div className='first-div'>
   <Heading/>
  <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='/place' element={<Place/>}/>
  </Routes>
-      
+      </div>
     </div>
   )
 }

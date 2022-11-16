@@ -9,7 +9,7 @@ export default function Modal({showModal}) {
         <div className='box'> 
         <div className='top'>
             <h1>Connect wallet</h1>
-            <h1 onClick={showModal}> X </h1>
+            <h4 onClick={showModal}> X </h4>
         </div>
         <p className='ptag'>Choose your Prefferd Wallet</p>
         
